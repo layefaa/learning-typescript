@@ -13,7 +13,20 @@ let newArr = [1, 2, '3']
 let newArr2: any[] = []
 // Array
 
-// Next ---> Tuples
+//Tuples
+let person_tuples: [number, string] = [2, "james"]
+//Tuples
+
+//enums
+const enum Size {
+  Small = 1,
+  Medium,
+  Large
+}
+
+let mySize: Size = Size.Small
+
+//enums
 
 
 // Data Types
