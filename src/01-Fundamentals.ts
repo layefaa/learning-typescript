@@ -28,5 +28,16 @@ let mySize: Size = Size.Small
 
 //enums
 
+//functions
+function CalculateTax(income: number, taxYear = 2022): number {
+  if (taxYear > 2022)
+    return income * 1.3
+  return income * 1.2
+}
+
+CalculateTax(50_000)
+
+//functions
+
 
 // Data Types
