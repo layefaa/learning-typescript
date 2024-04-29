@@ -39,5 +39,20 @@ CalculateTax(50_000)
 
 //functions
 
+// objects
+let employee: {
+  readonly id: number,
+  name: string,
+  retire: (date: Date) => void
+} = {
+  id: 1,
+  name: "James",
+  retire: (date: Date) => {
+    console.log(date)
+  }
+}
+
+// objects
+
 
 // Data Types
